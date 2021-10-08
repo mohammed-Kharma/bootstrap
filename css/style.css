@@ -1,0 +1,199 @@
+.home{
+    width: 100%;
+}
+ul li{
+    padding: 0 15px !important;
+}
+ul li a{
+    color: white !important;
+}
+ul li a:hover{
+    color: rgb(58, 3, 3) !important;
+}
+.navbar-brand{
+    color: white !important;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.carousel-indicators li{
+    width: 40px;
+    height: 6px;
+    background-color: #f00 !important;
+}
+.all-name h2{
+    font-size:50px;
+    color: #dc3545;
+    font-family: name;
+    margin: 20px;
+    text-transform: capitalize;
+    
+}
+@font-face{
+    src: url(../font/Lobster-Regular.ttf);
+    font-family: name;
+}
+.best{
+    width: 100%;
+    min-height: 400px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.span1{
+    color: #dc3545;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+/* service */
+.service{
+    width: 100%;
+    min-height: 400px;
+    background: #eee;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.prag{
+    margin-top: 25px;
+}
+/* deals */
+.deals{
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    min-height: 300px;
+}
+.bg-img{
+    margin: 20px;
+    position: relative;
+   
+}
+.postion{
+    position: absolute;
+    top: 15%;
+    width: 90%;
+    margin: auto;
+    left: 5%;
+    color: white !important;
+    font-size: 30px;
+    font-family: name;
+    border: none !important;
+    outline: none !important;
+}
+.alert{
+    background: #dc3545 !important;
+    color: white !important;
+}
+.bg-img img:hover{
+    /* border: 5px solid crimson; */
+    opacity: 0.4;
+}
+/* danate */
+.danate{
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #eee;
+    padding:20px;
+}
+.mm-img{
+    margin: 20px;
+    width: 350px;
+    height: 250px;
+    position: relative;
+   
+}
+.mm-img img{
+    width: 100%;
+    height: 100%;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: white !important;
+    display: none;
+    z-index: 2;
+    font-weight: bold;
+}
+.mm-img::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #f00;
+    content: "";
+    opacity: 0;
+     transition:all 2s ease-in-out;
+    -webkit-transition:all 2s ease-in-out;
+    -moz-transition:all 2s ease-in-out;
+    -ms-transition:all 2s ease-in-out;
+    -o-transition:all 2s ease-in-out;
+}
+.mm-img:hover::after{
+    opacity: 0.7;
+    width: 100%;
+}
+.mm-img:hover .icon{
+    display: block;
+}
+.contact{
+    width: 100%;
+    min-height: 300px;
+    padding-top: 30px;
+    margin-top: 30px;
+    background: #eee;
+}
+
+.socail .one{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #dc3545;
+    padding: 11px;
+    
+    font-size: 28px;
+   
+}
+.socail .sp-2{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.socail p{
+    margin-left: 50px;
+}
+/* sub */
+.sub{
+    width: 100%;
+    height: 300px;
+    background: #dc3545;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.sub h2{
+    color: white !important;
+    font-family: name;
+    text-align: center;
+    font-size: 40px;
+}
+.form-inline{
+    width: 350px;
+    margin: auto;
+}
+.sub .form-control{
+    width:300px ;
+    margin: 20px;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    color: #6c757d;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
